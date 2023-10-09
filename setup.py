@@ -8,8 +8,10 @@ setup(
         'click',
         'colorama'
     ],
-    entry_points='''
-        [console_scripts]
-        codespace-utils=codespace_utils:main
-    ''',
+    entry_points={
+    'console_scripts': [
+        'util=codespace_utils:util',
+    ],
+}
+
 )
