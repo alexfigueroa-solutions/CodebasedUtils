@@ -1,8 +1,5 @@
 
 
-**README.md**:
-
-```markdown
 # 🚀 Codespace Utils
 
 **Codespace Utils** is a versatile CLI tool designed to supercharge your developer workflow. Born out of the necessity to efficiently navigate through codespaces, this utility elegantly marries simplicity with robustness.
@@ -49,5 +46,3 @@ Distributed under the MIT License. See `LICENSE` for more information.
 ## 🤝 Connect
 
 Always eager to connect with fellow developers! Find me on [LinkedIn](#).
-
-```
