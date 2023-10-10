@@ -1,14 +1,18 @@
-from setuptools import setup
+from setuptools import setup, find_packages
 
 setup(
-    name="codespace-utils",
+    name="codespace_utils",
     version="0.1",
-    py_modules=["codespace_utils"],
+    packages=find_packages(),
     install_requires=[
         'click',
+        'colorama'
     ],
-    entry_points='''
-        [console_scripts]
-        codespace-utils=codespace_utils:main
-    ''',
+    entry_points={
+    'console_scripts': [
+        'util=core.print_dir:util',
+    ],
+
+}
+
 )

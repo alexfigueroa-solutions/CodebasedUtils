@@ -8,15 +8,15 @@ init(autoreset=True)
 logging.basicConfig(filename='logs/codespace_utils.log', level=logging.DEBUG,
                     format='%(asctime)s:%(levelname)s:%(message)s')
 
-# Main CLI group
 @click.group()
-def main():
-    """Codespace Utilities CLI tool"""
+def util():
+    """Utility commands."""
     pass
 
-@main.command()
+@util.command(name="printdir")  # Rename the command to 'printdir'
 @click.argument('path', default='.')
 @click.option('--exclude', default='', help='File patterns to exclude (e.g. *.log)')
+
 def dirprint(path, exclude):
     """Prints a directory structure, ignoring nonessential files."""
     def should_exclude(file_name):
@@ -48,4 +48,4 @@ def dirprint(path, exclude):
         click.echo(f"{Fore.RED}An unexpected error occurred. Check logs for details.")
 
 if __name__ == "__main__":
-    main()
+    util()
