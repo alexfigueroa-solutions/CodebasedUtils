@@ -36,4 +36,4 @@ jobs:
         ls -al
     - name: Run Tests
       run: |
-        pytest
+        pytest tests/
