@@ -1,6 +1,6 @@
 import pytest
 from click.testing import CliRunner
-from codespace_utils.print_dir import util
+from codespace_utils.codespace_utils.print_dir import util
 
 @pytest.fixture
 def runner():
