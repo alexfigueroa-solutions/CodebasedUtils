@@ -10,7 +10,7 @@ setup(
     ],
     entry_points={
     'console_scripts': [
-        'util=codespace_utils.print_dir:util',
+        'util=core.print_dir:util',
     ],
 
 }
