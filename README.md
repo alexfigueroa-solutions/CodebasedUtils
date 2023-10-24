@@ -5,7 +5,7 @@
 **CodebasedUtils** is a versatile CLI tool designed to supercharge your developer workflow. Born out of the necessity to efficiently navigate through codebases, this utility elegantly marries simplicity with robustness.
 
 ## 🔍 Features
-- **`dirprint`**: Prints a directory structure while seamlessly ignoring nonessential files, giving you a clear snapshot of your project.
+- **`tree`**: Prints a directory structure while seamlessly ignoring nonessential files, giving you a clear snapshot of your project.
 
 ## 🛠 Installation
 
