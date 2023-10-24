@@ -16,7 +16,7 @@ def util():
     """Utility commands."""
     pass
 
-@util.command(name="printdir")  # Rename the command to 'printdir'
+@util.command(name="tree")
 @click.argument('path', default='.')
 @click.option('--exclude', default='', help='File patterns to exclude (e.g. *.log)')
 
