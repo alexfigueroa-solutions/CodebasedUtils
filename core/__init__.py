@@ -1,2 +1,2 @@
 # Inside __init__.py
-from .tree import util
+from .main import util

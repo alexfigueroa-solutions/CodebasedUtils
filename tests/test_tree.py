@@ -1,6 +1,6 @@
 import pytest
 from click.testing import CliRunner
-from CodebasedUtils.core.tree import util
+from CodebasedUtils.core.main import util
 
 @pytest.fixture
 def runner():
