@@ -1,6 +1,6 @@
 import pytest
 from click.testing import CliRunner
-from codespace_utils.core.print_dir import util
+from CodebasedUtils.core.print_dir import util
 
 @pytest.fixture
 def runner():
@@ -13,4 +13,4 @@ def test_dirprint(runner):
 def test_dirprint_exclude(runner):
     result = runner.invoke(util, ['printdir', '.', '--exclude', '.py'])  # Using 'printdir' from 'util'
     assert result.exit_code == 0
-    assert 'codespace_utils.py' not in result.output
+    assert 'CodebasedUtils.py' not in result.output

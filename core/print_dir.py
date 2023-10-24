@@ -7,7 +7,7 @@ from colorama import init, Fore
 init(autoreset=True)
 
 # Setup logging
-logging.basicConfig(filename='./codespace_utils.log', level=logging.DEBUG,
+logging.basicConfig(filename='./codebasedutils.log', level=logging.DEBUG,
                     format='%(asctime)s:%(levelname)s:%(message)s')
 
 
