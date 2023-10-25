@@ -1,24 +1,24 @@
 
 
-# 🚀 Codespace Utils
+# 🚀CodebasedUtils
 
-**Codespace Utils** is a versatile CLI tool designed to supercharge your developer workflow. Born out of the necessity to efficiently navigate through codespaces, this utility elegantly marries simplicity with robustness.
+**CodebasedUtils** is a versatile CLI tool designed to supercharge your developer workflow. Born out of the necessity to efficiently navigate through codebases, this utility elegantly marries simplicity with robustness.
 
 ## 🔍 Features
-- **`dirprint`**: Prints a directory structure while seamlessly ignoring nonessential files, giving you a clear snapshot of your project.
+- **`tree`**: Prints a directory structure while seamlessly ignoring nonessential files, giving you a clear snapshot of your project.
 
 ## 🛠 Installation
 
 ```bash
-pip install codespace-utils
+pip install codebasedutils
 ```
 
 ## 🚴‍♂️ Quickstart
 
-To get a clean directory structure of your current directory:
+To get a clean directory structure of your current directory and copy it to your clipboard:
 
 ```bash
-codespace-utils dirprint
+util tree
 ```
 
 ## 📜 Logs
@@ -26,7 +26,7 @@ codespace-utils dirprint
 Encountered an anomaly? Dive deep with our comprehensive logs:
 
 ```bash
-cat logs/codespace_utils.log
+cat logs/codebasedutils.log
 ```
 
 ## 💡 Contributing

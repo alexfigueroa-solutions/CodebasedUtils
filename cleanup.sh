@@ -3,7 +3,7 @@
 # cleanup.sh
 
 # Directories to clean
-DIRS_TO_CLEAN=("build" "codespace_utils.egg-info" "__pycache__" ".pytest_cache")
+DIRS_TO_CLEAN=("build" "codebasedutils.egg-info" "__pycache__" ".pytest_cache")
 
 echo "This script will clean up generated and temporary files."
 read -p "Do you want to continue? (y/N): " confirmation
